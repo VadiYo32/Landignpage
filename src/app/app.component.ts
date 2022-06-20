@@ -8,7 +8,7 @@ import { CardModel } from './models/card.model';
 })
 export class AppComponent {
   title = 'test.2';
-  card: CardModel = new CardModel();
+
   dataCard: CardModel[]=[
     {
       cardTitle:"Star Platinum",

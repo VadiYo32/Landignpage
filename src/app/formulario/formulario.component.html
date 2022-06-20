@@ -1,16 +1,16 @@
-<form>
+<form (ngSubmit)="addCard()">
     <div class="mb-3">
       <label for="cardTitle" class="form-label">Card title</label>
-      <input type="text" class="form-control" id="card_title" >
+      <input type="text" name="card_title" [(ngModel)]="card.cardTitle" class="form-control" id="card_title" >
       
     </div>
     <div class="mb-3">
       <label for="description" class="form-label">Description</label>
-      <input type="text" class="form-control" id="Description">
+      <input type="text" name="Description" [(ngModel)]="card.description" class="form-control" id="Description">
     </div>
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Url image</label>
-      <input type="text" class="form-control" id="urlimage">
+      <input type="text" name="urlimage" [(ngModel)]="card.image" class="form-control" id="urlimage">
     </div>
    
     <button type="submit" class="btn btn-primary">Submit</button>
