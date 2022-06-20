@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardModel } from './models/card.model';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test.2';
-
-  dataCard: any[]=[
+  card: CardModel = new CardModel();
+  dataCard: CardModel[]=[
     {
       cardTitle:"Star Platinum",
       description:"Star Platinum (星の白金スタープラチナ, Sutā Purachina?) es el Stand de Jotaro Kujo introducido en Stardust Crusaders.",
