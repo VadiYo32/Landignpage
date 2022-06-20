@@ -1,31 +1,10 @@
 <app-nav-bar></app-nav-bar>
-
+<app-formulario></app-formulario>
 <div class="container">
   <div class="row">
-   
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[0].cardTitle" [description]="dataCard[0].description" [bottomText]="dataCard[0].bottomText" [image]="dataCard[0].image" ></app-cards>
-    </div>
-
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[1].cardTitle" [description]="dataCard[1].description" [bottomText]="dataCard[1].bottomText" [image]="dataCard[1].image" ></app-cards>
-    </div>
-
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[2].cardTitle" [description]="dataCard[2].description" [bottomText]="dataCard[0].bottomText" [image]="dataCard[2].image" ></app-cards>
-    </div>
-
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[3].cardTitle" [description]="dataCard[3].description" [bottomText]="dataCard[0].bottomText" [image]="dataCard[3].image" ></app-cards>
-    </div>
-
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[4].cardTitle" [description]="dataCard[4].description" [bottomText]="dataCard[0].bottomText" [image]="dataCard[4].image" ></app-cards>
-    </div>
-
-    <div class="col-4">
-      <app-cards [cardTitle]="dataCard[5].cardTitle" [description]="dataCard[5].description" [bottomText]="dataCard[0].bottomText" [image]="dataCard[5].image" ></app-cards>
-    </div>
+    <div class="col-4" *ngFor="let item of dataCard">
+      <app-cards [cardTitle]="item.cardTitle" [description]="item.description" [bottomText]="item.bottomText" [image]="item.image" ></app-cards>
+    </div> 
   </div>  
 </div>
 

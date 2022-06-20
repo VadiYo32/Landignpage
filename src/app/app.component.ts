@@ -24,25 +24,25 @@ export class AppComponent {
     {
       cardTitle:"The Hand",
       description:"The Hand (手ザ・ハンド, Za Hando?) es el Stand de Okuyasu Nijimura que aparece en Diamond Is Unbreakable.",
-      bottomText:"",
+      bottomText:"see more",
       image:"https://i.ytimg.com/vi/UgfYYOyhZY4/maxresdefault.jpg"
     },
     {
       cardTitle:"Silver Chariot",
       description:"Silver Chariot (銀の戦車シルバー チャリオッツ, Shirubā Chariottsu, gin no senshi?) es el Stand de Jean Pierre Polnareff, que aparece en Stardust Crusaders y más tarde, brevemente, en Vento Aureo.",
-      bottomText:"",
+      bottomText:"see more",
       image:"https://img1.ak.crunchyroll.com/i/spire4-tmb/df3e396f1d84a92f34d857bdbf94741a1398795781_main.jpg"
     },
     {
       cardTitle:"Golden Experience",
       description:"Gold Experience (黄金体験ゴールド·エクスペリエンス, Gorudo EkusuperiensuŌgon Taiken?), o simplemente conocido como Gold E (ゴールド·E,?), es el Stand de Giorno Giovanna, protagonista principal en la Parte 5: Vento Aureo.",
-      bottomText:"",
+      bottomText:"see more",
       image:"https://img.wattpad.com/89d7d9ae015723c073bd579d2ada3d60c9135052/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5a49416a324e7454347a386855513d3d2d313032383732313032372e313636363338373731363136363233353833373434353134383733302e6a7067"
     },
     {
       cardTitle:"Sex Pistols",
       description:"Sex Pistols (セックス・ピストルズ, Sekkusu Pisutoruzu?) es el Stand de Mista, personaje principal que aparece en Vento Aureo.",
-      bottomText:"",
+      bottomText:"see more",
       image:"https://i.ytimg.com/vi/DPa7qofuebU/maxresdefault.jpg"
     }
   ]
