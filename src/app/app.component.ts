@@ -50,6 +50,6 @@ export class AppComponent {
   ]
 
   addCard(card:CardModel){
-    this.dataCard.push(card); 
+    this.dataCard.push(Object.assign({},card)); 
   }
 }
