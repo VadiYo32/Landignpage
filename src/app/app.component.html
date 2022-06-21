@@ -1,5 +1,5 @@
 <app-nav-bar></app-nav-bar>
-<app-formulario></app-formulario>
+<app-formulario (envioCard)="addCard($event)"></app-formulario>
 <div class="container">
   <div class="row">
     <div class="col-4" *ngFor="let item of dataCard">

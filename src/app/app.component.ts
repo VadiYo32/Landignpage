@@ -9,6 +9,7 @@ import { CardModel } from './models/card.model';
 export class AppComponent {
   title = 'test.2';
 
+
   dataCard: CardModel[]=[
     {
       cardTitle:"Star Platinum",
@@ -47,4 +48,8 @@ export class AppComponent {
       image:"https://i.ytimg.com/vi/DPa7qofuebU/maxresdefault.jpg"
     }
   ]
+
+  addCard(card:CardModel){
+    this.dataCard.push(card); 
+  }
 }

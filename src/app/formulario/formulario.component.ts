@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter ,OnInit, Output } from '@angular/core';
+
 import { CardModel } from '../models/card.model';
 
 @Component({
@@ -10,11 +11,12 @@ export class FormularioComponent implements OnInit {
 
   constructor() { }
   card: CardModel = new CardModel();
+  @Output() envioCard: EventEmitter <CardModel>= new EventEmitter();
   ngOnInit(): void {
   }
     addCard(){
       console.log(this.card);
-      this.datacard.push(this.card);
+      this.envioCard.emit(this.card);
     }
 
 
