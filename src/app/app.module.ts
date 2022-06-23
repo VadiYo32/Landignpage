@@ -7,18 +7,24 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CardsComponent } from './cards/cards.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { FormsModule } from '@angular/forms';
+import { NewsComponent } from './pages/news/news.component';
+import { CardRegisterComponent } from './pages/card-register/card-register.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CardsComponent,
-    FormularioComponent
+    FormularioComponent,
+    NewsComponent,
+    CardRegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

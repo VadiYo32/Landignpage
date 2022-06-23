@@ -1,0 +1,5 @@
+<div class="row" style="margin-top:10px; margin-bottom: 50px;">    
+    <div class="col-4" *ngFor="let new of articles">
+      <app-cards [cardTitle]="new.title" [description]="new.description" [bottomText]="'Go to' +new.author" [image]="new.urlToImage" ></app-cards>
+  </div> 
+</div> 

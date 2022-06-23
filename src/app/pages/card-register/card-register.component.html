@@ -1,0 +1,6 @@
+<app-formulario></app-formulario>
+<div class="row" style="margin-top:10px; margin-bottom: 50px;">    
+    <div class="col-4" *ngFor="let item of dataCard">
+      <app-cards [cardTitle]="item.cardTitle" [description]="item.description" [bottomText]="item.bottomText" [image]="item.image" ></app-cards>
+  </div> 
+</div> 
