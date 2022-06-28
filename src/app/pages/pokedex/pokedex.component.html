@@ -1,0 +1,5 @@
+<div class="row" style="margin-top:10px; margin-bottom: 50px;">    
+    <div class="col-4" *ngFor="let pokemon of pokedex">
+      <app-cards [cardTitle]="pokemon.name"   [image]="pokemon.url" ></app-cards>
+  </div> 
+</div> 

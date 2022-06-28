@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { NewsComponent } from './pages/news/news.component';
 import { CardRegisterComponent } from './pages/card-register/card-register.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PokedexComponent } from './pages/pokedex/pokedex.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     CardsComponent,
     FormularioComponent,
     NewsComponent,
-    CardRegisterComponent
+    CardRegisterComponent,
+    PokedexComponent
   ],
   imports: [
     BrowserModule,
